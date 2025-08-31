@@ -1,0 +1,139 @@
+{
+    "citizens": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "email": "john@example.com",
+        "ecoPoints": 245,
+        "totalWetWaste": 45.5,
+        "totalPlasticWaste": 23,
+        "joinDate": "2024-01-15"
+      },
+      {
+        "id": 2,
+        "name": "Sarah Johnson",
+        "email": "sarah@example.com",
+        "ecoPoints": 189,
+        "totalWetWaste": 38.2,
+        "totalPlasticWaste": 19,
+        "joinDate": "2024-02-03"
+      },
+      {
+        "id": 3,
+        "name": "Mike Chen",
+        "email": "mike@example.com",
+        "ecoPoints": 312,
+        "totalWetWaste": 62.1,
+        "totalPlasticWaste": 31,
+        "joinDate": "2024-01-08"
+      },
+      {
+        "id": 4,
+        "name": "Emily Rodriguez",
+        "email": "emily@example.com",
+        "ecoPoints": 156,
+        "totalWetWaste": 28.7,
+        "totalPlasticWaste": 15,
+        "joinDate": "2024-02-20"
+      },
+      {
+        "id": 5,
+        "name": "David Kim",
+        "email": "david@example.com",
+        "ecoPoints": 203,
+        "totalWetWaste": 41.3,
+        "totalPlasticWaste": 22,
+        "joinDate": "2024-01-25"
+      }
+    ],
+    "wasteEntries": [
+      {
+        "id": 1,
+        "citizenId": 1,
+        "date": "2024-03-15",
+        "wetWaste": 2.5,
+        "plasticWaste": 3,
+        "ecoPointsEarned": 12
+      },
+      {
+        "id": 2,
+        "citizenId": 1,
+        "date": "2024-03-14",
+        "wetWaste": 1.8,
+        "plasticWaste": 2,
+        "ecoPointsEarned": 8
+      },
+      {
+        "id": 3,
+        "citizenId": 2,
+        "date": "2024-03-15",
+        "wetWaste": 3.2,
+        "plasticWaste": 4,
+        "ecoPointsEarned": 15
+      },
+      {
+        "id": 4,
+        "citizenId": 3,
+        "date": "2024-03-15",
+        "wetWaste": 2.1,
+        "plasticWaste": 5,
+        "ecoPointsEarned": 14
+      },
+      {
+        "id": 5,
+        "citizenId": 4,
+        "date": "2024-03-14",
+        "wetWaste": 1.5,
+        "plasticWaste": 2,
+        "ecoPointsEarned": 8
+      }
+    ],
+    "collectionCenters": [
+      {
+        "id": 1,
+        "name": "Green Valley Collection Center",
+        "address": "123 Eco Street, Green Valley",
+        "lat": 40.7128,
+        "lng": -74.006,
+        "capacity": 500,
+        "currentLoad": 320,
+        "status": "active"
+      },
+      {
+        "id": 2,
+        "name": "Downtown Recycling Hub",
+        "address": "456 Recycle Ave, Downtown",
+        "lat": 40.7589,
+        "lng": -73.9851,
+        "capacity": 750,
+        "currentLoad": 580,
+        "status": "active"
+      },
+      {
+        "id": 3,
+        "name": "Riverside Processing Plant",
+        "address": "789 River Road, Riverside",
+        "lat": 40.6892,
+        "lng": -74.0445,
+        "capacity": 1000,
+        "currentLoad": 750,
+        "status": "maintenance"
+      }
+    ],
+    "analytics": {
+      "totalWetWaste": 2500,
+      "totalPlasticWaste": 1200,
+      "biogasProduced": 5000,
+      "ecoBricksCreated": 72,
+      "activeCitizens": 156,
+      "monthlyData": [
+        { "month": "Jan", "wetWaste": 180, "plasticWaste": 95, "biogas": 360, "ecoBricks": 5 },
+        { "month": "Feb", "wetWaste": 220, "plasticWaste": 110, "biogas": 440, "ecoBricks": 6 },
+        { "month": "Mar", "wetWaste": 280, "plasticWaste": 140, "biogas": 560, "ecoBricks": 8 },
+        { "month": "Apr", "wetWaste": 320, "plasticWaste": 160, "biogas": 640, "ecoBricks": 9 },
+        { "month": "May", "wetWaste": 380, "plasticWaste": 190, "biogas": 760, "ecoBricks": 11 },
+        { "month": "Jun", "wetWaste": 420, "plasticWaste": 210, "biogas": 840, "ecoBricks": 12 }
+      ]
+    }
+  }
+  

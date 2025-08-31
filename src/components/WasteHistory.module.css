@@ -1,0 +1,90 @@
+.container {
+    background: var(--color-card);
+    border: 1px solid var(--color-border);
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+  }
+  
+  .title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--color-foreground);
+    margin-bottom: 1rem;
+    font-family: "Space Grotesk", sans-serif;
+  }
+  
+  .emptyState {
+    text-align: center;
+    padding: 2rem 0;
+  }
+  
+  .emptyIcon {
+    width: 4rem;
+    height: 4rem;
+    background: var(--color-muted);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1rem;
+    font-size: 2rem;
+    color: var(--color-muted-foreground);
+  }
+  
+  .emptyState p:first-of-type {
+    color: var(--color-muted-foreground);
+  }
+  
+  .emptyState p:last-of-type {
+    font-size: 0.875rem;
+    color: var(--color-muted-foreground);
+  }
+  
+  .tableContainer {
+    overflow-x: auto;
+  }
+  
+  .table {
+    width: 100%;
+  }
+  
+  .tableHeader {
+    border-bottom: 1px solid var(--color-border);
+  }
+  
+  .tableHeader th {
+    text-align: left;
+    padding: 0.75rem 1rem;
+    font-weight: 500;
+    color: var(--color-foreground);
+  }
+  
+  .tableRow {
+    border-bottom: 1px solid var(--color-border);
+    transition: background-color 0.2s ease;
+  }
+  
+  .tableRow:hover {
+    background: rgba(107, 114, 128, 0.05);
+  }
+  
+  .tableCell {
+    padding: 0.75rem 1rem;
+    color: var(--color-foreground);
+  }
+  
+  .pointsBadge {
+    background: rgba(22, 163, 74, 0.1);
+    color: var(--color-primary);
+    padding: 0.25rem 0.5rem;
+    border-radius: 9999px;
+    font-size: 0.875rem;
+    font-weight: 500;
+  }
+  
+  .summary {
+    margin-top: 1rem;
+    font-size: 0.875rem;
+    color: var(--color-muted-foreground);
+  }
+  

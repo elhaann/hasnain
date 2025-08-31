@@ -1,0 +1,108 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .leaderboardItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--color-border);
+  }
+  
+  .topRankItem {
+    background: rgba(22, 163, 74, 0.05);
+    border-color: rgba(22, 163, 74, 0.2);
+  }
+  
+  .regularItem {
+    background: rgba(107, 114, 128, 0.03);
+    border-color: var(--color-border);
+  }
+  
+  .itemLeft {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .rankIcon {
+    font-size: 2rem;
+  }
+  
+  .goldRank {
+    color: var(--color-chart-3);
+  }
+  
+  .silverRank {
+    color: var(--color-muted-foreground);
+  }
+  
+  .bronzeRank {
+    color: var(--color-chart-4);
+  }
+  
+  .defaultRank {
+    color: var(--color-muted-foreground);
+  }
+  
+  .citizenInfo {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .citizenName {
+    font-weight: 600;
+    color: var(--color-foreground);
+  }
+  
+  .citizenStats {
+    font-size: 0.875rem;
+    color: var(--color-muted-foreground);
+  }
+  
+  .itemRight {
+    text-align: right;
+  }
+  
+  .ecoPoints {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--color-primary);
+  }
+  
+  .pointsLabel {
+    font-size: 0.875rem;
+    color: var(--color-muted-foreground);
+  }
+  
+  .summary {
+    margin-top: 1.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--color-border);
+  }
+  
+  .summaryGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    font-size: 0.875rem;
+  }
+  
+  .summaryItem {
+    text-align: center;
+  }
+  
+  .summaryValue {
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: var(--color-foreground);
+  }
+  
+  .summaryLabel {
+    color: var(--color-muted-foreground);
+  }
+  
