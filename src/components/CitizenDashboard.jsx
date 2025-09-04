@@ -114,7 +114,7 @@ const CitizenDashboard = ({ user, onLogout, loginType }) => {
             </div>
           </div>
         </div>
-            <section className="py-16 bg-background text-center">
+        <section className="py-16 bg-background text-center">
           <button
             onClick={() => setShowDashboard(!showDashboard)}
             className="bg-green-600 text-white px-6 py-3 rounded-lg font-semibold shadow hover:bg-green-700 transition"

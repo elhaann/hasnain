@@ -107,7 +107,7 @@ const CollectionCentersMap = () => {
             {
               featureType: "poi",
               elementType: "labels",
-              stylers: [{ visibility: "off" }]
+              stylers: [{ visibility: "on" }]
             }
           ]
         });

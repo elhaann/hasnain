@@ -1,5 +1,6 @@
-import { initializeApp } from "firebase/app";
-
+// firebase.js
+import { initializeApp } from 'firebase/app';
+import { getAuth } from 'firebase/auth';
 
 const firebaseConfig = {
   apiKey: "AIzaSyDoFu2J0LvUelkbOAR-gcUVWba0Ot4WcnY",
@@ -12,5 +13,25 @@ const firebaseConfig = {
   databaseURL:"https://eco-energy-eddaa-default-rtdb.firebaseio.com/"
 };
 
+// Initialize Firebase
+export const app = initializeApp(firebaseConfig);
+export const auth = getAuth(app);
 
-export const app = initializeApp(firebaseConfig); 
+// Configure reCAPTCHA for phone auth
+// export const setupRecaptcha = (containerId) => {
+//   if (!window.recaptchaVerifier) {
+//     window.recaptchaVerifier = new window.firebase.auth.RecaptchaVerifier(containerId, {
+//       size: 'normal',
+//       callback: (response) => {
+//         // reCAPTCHA solved
+//         console.log('reCAPTCHA solved');
+//       },
+//       'expired-callback': () => {
+//         // Response expired
+//         console.log('reCAPTCHA expired');
+//       }
+//     });
+//   }
+// };
+
+export default app;
